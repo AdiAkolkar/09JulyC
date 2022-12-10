@@ -51,6 +51,9 @@ public class neoStoxUtilityNew
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView()", element);
 		Reporter.log("Scrolling to element.", true);
+		
+		
+		
 	}
 }
 
